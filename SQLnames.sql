@@ -1,3 +1,5 @@
+# Retrieve the names and email addresses of all customers who have made a purchase in the last month
+
 SELECT name, email
 FROM customers
 WHERE customer_id IN (
